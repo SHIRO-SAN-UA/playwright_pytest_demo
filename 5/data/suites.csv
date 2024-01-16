@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Jan 16 17:30:28 GMT 2024","Tue Jan 16 17:30:28 GMT 2024","0","tests","test_buttons","TestButtons","","","test_double_click_button","Test to verify the functionality of the double click button
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
