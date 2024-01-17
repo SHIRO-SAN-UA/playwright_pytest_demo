@@ -1,0 +1,35 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jan 17 08:15:29 GMT 2024","Wed Jan 17 08:15:33 GMT 2024","4260","tests","test_check_boxes","TestCheckBoxes","","","test_check_boxes[chromium]","Test to verify the checkboxes on the page
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Wed Jan 17 08:15:19 GMT 2024","Wed Jan 17 08:15:20 GMT 2024","481","tests","test_buttons","TestButtons","","","test_double_click_button","Test to verify the functionality of the double click button
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Wed Jan 17 08:15:25 GMT 2024","Wed Jan 17 08:15:26 GMT 2024","503","tests","test_buttons","TestButtons","","","test_dynamic_button","Test to verify the functionality of the dynamic button
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Wed Jan 17 08:15:55 GMT 2024","Wed Jan 17 08:16:00 GMT 2024","5197","tests","test_text_boxes","TestTextBoxes","","","test_text_boxes[chromium]","Test to verify the input fields and output form on the page
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Wed Jan 17 08:15:22 GMT 2024","Wed Jan 17 08:15:22 GMT 2024","516","tests","test_buttons","TestButtons","","","test_rmb_click_button","Test to verify the functionality of the Right Mouse Button click button
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Wed Jan 17 08:15:41 GMT 2024","Wed Jan 17 08:15:53 GMT 2024","11565","tests","test_select_menu","TestSelect","","","test_select_menu[chromium]","Test to verify the dropdown menus on the page
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Wed Jan 17 08:15:35 GMT 2024","Wed Jan 17 08:15:38 GMT 2024","2082","tests","test_radio_buttons","TestRadioButtons","","","test_radio_buttons[chromium]","Test to verify the radio buttons on the page
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
