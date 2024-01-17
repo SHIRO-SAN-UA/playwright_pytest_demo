@@ -37,6 +37,7 @@
               playwright install chromium
 
           - name: Run tests
+            id: tests
             run: pytest || echo "Pytest failed with exit code $?"
 
           - name: Allure Report action from marketplace
@@ -61,7 +62,7 @@
             if: always()
             uses: ravsamhq/notify-slack-action@v2
             with:
-              status: ${{ job.status }}
+              status: ${{ steps.tests.outcome }}
               message_format: ${{ secrets.GH_ACTIONS_URL }}
               notify_when: "success,failure"
             env:
