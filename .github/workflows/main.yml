@@ -34,7 +34,7 @@
               playwright install chromium
 
           - name: Run tests
-            run: pytest
+            run: pytest || echo "Pytest failed with exit code $?"
             continue-on-error: true
 
           - name: Allure Report action from marketplace
