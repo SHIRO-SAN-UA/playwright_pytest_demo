@@ -38,7 +38,7 @@
 
           - name: Run tests
             id: tests
-            run: pytest || echo "Pytest failed with exit code $?"
+            run: pytest
 
           - name: Allure Report action from marketplace
             uses: simple-elf/allure-report-action@master
